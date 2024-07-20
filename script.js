@@ -6,9 +6,10 @@ let arr = [
   { id: 3, name: "karen", age: "19", profession: "admin" },
 ];
 
+
 function PrintDeveloperbyMap() {
   //Write your code here , just console.log
-  
+
   let result = arr.filter(person => person.profession === "developer");
   console.log(result);
 
@@ -21,7 +22,7 @@ function PrintDeveloperbyMap() {
 
 function PrintDeveloperbyForEach() {
   //Write your code here , just console.log
-  
+
   let result = arr.forEach(person => {
     if(person.profession === "developer"){
       console.log(person);
@@ -40,7 +41,7 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
-  
+
   let result = arr.filter(person => person.profession !== "admin");
   console.log(result);
 
@@ -56,7 +57,7 @@ function removeAdmin() {
 
 function concatenateArray() {
   //Write your code here, just console.log
-
+  
   let newArr = [{ Id: 6, Profession: "Wrestler", age: "44", Name: "John Cena" },
                 { Id: 7, Profession: "Actor", age: "40", Name: "Jack Sparrow" },
                 { Id: 8, Profession: "Actress", age: "36", Name: "Karen Gillian" },
