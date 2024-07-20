@@ -24,4 +24,5 @@ function removeAdmin() {
 
 function concatenateArray() {
   //Write your code here, just console.log
+  // sss
 }
